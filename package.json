@@ -12,6 +12,8 @@
     "@chakra-ui/react": "^2.4.4",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
+    "@fontsource/open-sans": "^4.5.13",
+    "@fontsource/raleway": "^4.5.11",
     "@next/font": "13.1.1",
     "@types/node": "18.11.17",
     "@types/react": "18.0.26",
