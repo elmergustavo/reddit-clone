@@ -102,12 +102,12 @@ const SignUp: React.FC = () => {
           onClick={() =>
             setAutModalState((prev) => ({
               ...prev,
-              view: "signup",
+              view: "login",
             }))
           }
         >
           {" "}
-          SIGN UP
+          LOG IN
         </Text>
       </Flex>
     </form>
