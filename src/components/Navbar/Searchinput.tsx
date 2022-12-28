@@ -1,4 +1,6 @@
-import { Search2Icon } from "@chakra-ui/icons";
+import { SearchIcon } from "@chakra-ui/icons";
+import { Icon } from '@chakra-ui/react'
+
 import { Flex, Input, InputGroup, InputLeftElement } from "@chakra-ui/react";
 import React from "react";
 
@@ -20,7 +22,8 @@ const Searchinput: React.FC<SearchinputProps> = () => {
           color="gray.400"
           // children={<SearchIcon mb={2} />}
         >
-          <Search2Icon mb={2} />
+          {/* <Search2Icon mb={2} /> */}
+         
         </InputLeftElement>
         <Input
           placeholder="Search Reddit"
